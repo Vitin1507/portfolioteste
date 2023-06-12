@@ -1,0 +1,164 @@
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .h1 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+  }
+
+  body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding-top: 50px; 
+}
+header h1{
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    color: rgb(36, 36, 36);
+    word-spacing: 10px;
+    font-size: 70px;
+}
+header nav a{
+    text-decoration: none;
+    color: gray;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+.about{
+    display: flex;
+}
+.about img{
+    margin-left: 150px;
+}
+.about .txt{
+    margin-left: 50px;
+}
+.find{
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+}
+.find h2{
+    font-size: 32px;
+}
+.contact{
+    margin-left: 90px;
+}
+.icons{
+    margin-top: 15px;
+    margin-left: 70px;
+}
+.icons ul{
+    display: inline-block;
+}
+.icons li{
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 25px;
+}
+.released{
+    display: flex;
+    margin-left: 150px;
+}
+
+.released div{
+    margin-left: 20px;
+}
+.released .two{
+    text-align: center;
+    margin-left: 80px;
+    font-size: 30px;
+}
+.released .three{
+    margin-left: 80px;
+    text-align: center;
+    font-size: 30px;
+}
+.released .four{
+    margin-left: 80px;
+    font-size: 30px;
+}
+.released .one p{
+    text-align: center;
+    font-size: 30px;
+}
+.released .two p{
+    padding-top: 105px;
+    text-align: center;
+}
+.released .three p{
+    text-align: center;
+    padding-top: 105px;
+}
+.released .four p{
+    text-align: center;
+    padding-top: 105px;
+}
+.released .one p{
+    font-size: 20px;
+    padding-top: 10px;
+}
+.released .two p{
+    font-size: 20px;
+}
+.released .three p{
+    font-size: 20px;
+}
+.released .four p{
+    font-size: 20px;
+}
+.releasedrow{
+    display: flex;
+    margin-left: 180px;
+}
+.releasedrow div{
+    margin-left: 50px;
+}
+.releasedrow .one p{
+    text-align: center;
+    font-size: 20px;
+}
+.releasedrow .two p{
+    text-align: center;
+    font-size: 20px;
+}
+.releasedrow .three i{
+    margin-left: 50px;
+    font-size: 130px;
+}
+.releasedrow .three p{
+    text-align: center;
+    font-size: 20px;
+}
+.where .in{
+    margin-left: 250px;
+    font-size: 40px;
+}
+.people{
+    width: 70%;;
+}
+.people h2{
+    margin-left: 180px;
+    font-size: 40px;
+}
+.people p{
+    font-size: 20px;
+    margin-left:180px;
+}
+.flex{
+    display: flex;
+    margin-left: 180px;
+}
+.flex div{
+    margin-top: 90px;
+}
